@@ -1,0 +1,24 @@
+{
+  "name": "dsh-qq-notify",
+  "version": "0.2.1",
+  "description": "DeepSeek Harness QQ 通知插件：回合完成/出错/待审批时，用官方 QQ 机器人（AppID+AppSecret，沙箱/正式）主动推一条 C2C 私聊消息；可自动连接网关捕获接收者的 user_openid。",
+  "license": "MIT",
+  "type": "module",
+  "main": "dist/index.js",
+  "exports": {
+    ".": "./dist/index.js"
+  },
+  "files": [
+    "dist",
+    "cordis.patch.yml"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "dependencies": {
+    "@deepseek-ai/schemastery": "^3.18.1",
+    "ws": "^8.21.0"
+  }
+}

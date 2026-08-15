@@ -1,0 +1,8 @@
+# 敏感配置：含 QQ AppSecret，绝不提交到公开仓库
+qq-watch.config.json
+# 本地运行时产物
+qq-notify.log
+qq-notify.pid
+qq-notify.openid.json
+qq-notify.sessions.json
+*.log

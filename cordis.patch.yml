@@ -1,0 +1,8 @@
+# dsh-qq-notify bundle layer — applied when a profile lists this bundle.
+#
+# `insert` adds this plugin's row. `name` is a module specifier resolved through
+# the profile's node_modules (or `$DSH_HOME/profiles/node_modules` fallback); it
+# matches this package's own name, so installing the package registers the row.
+- insert:
+    - id: qq-notify
+      name: 'dsh-qq-notify'
