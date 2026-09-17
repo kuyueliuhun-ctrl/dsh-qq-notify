@@ -6,3 +6,5 @@ qq-notify.pid
 qq-notify.openid.json
 qq-notify.sessions.json
 *.log
+# 本地测试/链接产物
+node_modules/
